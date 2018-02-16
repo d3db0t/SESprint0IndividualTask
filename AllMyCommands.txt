@@ -1,0 +1,22 @@
+git init SESprint0IndividualTask
+git remote add origin https://github.com/d3db0t/SESprint0IndividualTask.git
+git add A.txt B.txt C.txt
+git status
+git commit -m "[+] Added the 3 files"
+git rm B.txt
+git status
+git commit -m "[-] Deleted B.txt"
+git log
+git reset --hard 8579765198ebe567d530386a14f2ce9db40ea4cd
+git status
+git push --set-upstream origin master
+git branch ReadMe
+git branch -v
+git checkout ReadMe
+git add README.md
+git commit -m "[+] Added README.md"
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m "[+] Added AllMyCommands.txt"
+git push
